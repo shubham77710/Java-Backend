@@ -3,14 +3,14 @@ import java.util.ArrayList;
 
 public class Demo {
     public static void main(String[] args) {
-        //Invariant in Generics
+        // Invariant in Generics
         // Animal animal = new Dog();
         // animal.eat();
         // animal.walk();
-        // animal.bark();
+        // animal.bark(); // because its define in child class
 
         // List<Dog> dogs = new ArrayList<>();
-        // List<Animal> animals = dogs;
+        // List<Animal> animals = dogs; // List of dogs ko lIST OF aanimal mey nahi hoga
 
         Dog[] dogs = new Dog[10];
         Animal[] animals = dogs;
@@ -21,7 +21,7 @@ public class Demo {
         animals[1] = new Dog();
         animals[2] = new Dog();
         animals[3] = new Dog();
-        animals[4] = new Animal();
+        // animals[0] = new Animal(); //Runtime error
 
 
         for(Animal animal : animals){

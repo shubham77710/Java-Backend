@@ -17,7 +17,6 @@ public class Demo3 {
 
        while(it.hasNext()){
         // System.out.println(it.next());
-
         int value = it.next();
         if(value == 3){
             list.remove(value);
@@ -25,6 +24,7 @@ public class Demo3 {
 
         System.out.println(value);
        }
+        
     }
     
 }

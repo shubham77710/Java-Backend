@@ -21,7 +21,6 @@ public class Demo {
         // list.addAll(0, List.of(1,2,3));
 
         // System.out.println(list);
-
         
         // list.remove(0);
         // System.out.println(list);

@@ -5,6 +5,7 @@ public class Demo {
     public static void main(String[] args) {
         List<Student> list = new ArrayList<>();
 
+        
         list.add(new Student( "Aditya",95));
         list.add(new Student("Rohit",85));
         list.add(new Student("Rohan", 56));

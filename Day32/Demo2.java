@@ -10,6 +10,7 @@ public class Demo2 {
         set.add(s1);
         set.add(s2);
 
+        
         System.out.println(set.size());
     }
     

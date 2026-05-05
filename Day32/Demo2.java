@@ -6,6 +6,7 @@ public class Demo2 {
         Student s2 = new Student("Aditya", 95);
 
         TreeSet<Student> set = new TreeSet<>();
+        
 
         set.add(s1);
         set.add(s2);

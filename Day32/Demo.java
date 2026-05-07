@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.List;
 
 public class Demo {
+    
     public static void main(String[] args) {
         
         List<Student> list = new ArrayList<>();

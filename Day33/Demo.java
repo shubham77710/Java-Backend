@@ -11,6 +11,7 @@ public class Demo {
         list.add(new Student("Rohit",102,89));
         list.add(new Student("Rohan",103,93));
         list.add(new Student("Sonu",104,98));
+        
 
         // Comparator<Student> c1 = new SortByName();
         // Comparator<Student> c2 = new SortByrollno();

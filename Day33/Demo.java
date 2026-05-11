@@ -7,6 +7,7 @@ import java.util.List;
 public class Demo {
     
     public static void main(String[] args) {
+        
         List<Student> list = new ArrayList<>();
         list.add(new Student("Aditya",101,85));
         list.add(new Student("Rohit",102,89));

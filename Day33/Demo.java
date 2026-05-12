@@ -18,7 +18,8 @@ public class Demo {
         // Comparator<Student> c1 = new SortByName();
         // Comparator<Student> c2 = new SortByrollno();
         // Comparator<Student> c3 = new SortByMarks();
- 
+
+        
         // Collections.sort(list,c3);
 
         // Collections.sort(list, new  Comparator<Student>() {

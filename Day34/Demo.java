@@ -13,6 +13,7 @@ public class Demo {
     public static void print(int a,int b, Calculator c){
         System.out.println(c.calculator(a, b));
 
+        
     }
     
 }

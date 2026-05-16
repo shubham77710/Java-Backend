@@ -7,7 +7,6 @@ public class Demo {
 
         print(2, 3, (a,b) -> a+b);
 
-
         
     }
 

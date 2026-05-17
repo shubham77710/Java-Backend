@@ -19,6 +19,7 @@ public class Demo {
 }
 
 @FunctionalInterface
+    
 interface Calculator{
     int calculator(int a,int b);
 }

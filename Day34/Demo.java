@@ -5,6 +5,7 @@ public class Demo {
 
     //    System.out.println(ans);
 
+        
         print(2, 3, (a,b) -> a+b);
 
         

@@ -1,5 +1,4 @@
 public class Demo {
-    
     public static void main(String[] args) {
        // Calculator c = new Addition(); 
     //    int ans = c.calculator(5, 4);
